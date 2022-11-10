@@ -1,1 +1,1 @@
-https://abdurrahman1q.github.io/Boot1/
+https://abdurrahman1q.github.io/book/
