@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
 
         }
         else{
-            $showError = "Password do not match";
+            $showError = true;
         }
     }
     if($num>0){
@@ -47,7 +47,7 @@ if($showAlert) {
 };
 if($showError) {
     echo ' <div class="alert alert-warning alert-dismissible fade show" role="alert">
-    <strong>Success!</strong> You can log in now.'. $showError.'
+    <strong>Alas!</strong> Password do not match.'. $showError.'
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div> ';
 }
